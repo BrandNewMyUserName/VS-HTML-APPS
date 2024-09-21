@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторна робота №1</title>
+</head>
+<body>
+    <h1>Лабораторна робота № 1</h1>
+    <h2>Робота з формами</h2>
+    <h2>Виконав студент групи КН-31, Шутько Ілля</h2>
+    <a href="index.html">На головну</a>
+    <hr>
+    <h3>Завдання</h3>
+    <p>Необхідно розробити форму для введення інформації про виставу. Необхідно заповнити наступні данні:</p>
+    <ul>
+        <li>
+            дані про виставу, включають назву вистави, жанр(вибирається зі списку),
+            дата вистави, час вистави, опис вистави, картинку з афішою;
+        </li>
+        <li>
+            дані про квиток, включають тип розміщення (вибирається зі списку,
+            наприклад, партер, ложа бенуар, балкон і т.п.), номер місця, вартість квитка.
+        </li>
+    </ul>
+
+    <form action="" method="POST">
+        <fieldset>
+            <legend>Вистава</legend>
+            <label>Назва</label>
+            <input id="performance_name" type="text">
+
+            <label>Жанр</label>
+            <select>
+                <option>--Вибрати--</option>
+                <option>Драма</option>
+                <option>Комедія</option>
+                <option>Балет</option>
+                <option>Опера</option>
+                <option>Оперета</option>
+            </select>
+
+            <label>
+                Дата 
+                <input id="performance_date" type="date">
+            </label>
+
+
+            <label>Час</label>
+            <input id="performance_time" type="time">
+            <br><br>
+
+            <label>Опис</label>
+            <br>
+            <label>
+                <textarea rows="5" cols="50"></textarea>
+            </label>
+            <br><br>
+
+            <label>Афіша</label>
+            <br>
+            <label>Завантажити картинку: </label>
+            <input type="file" id="imageUpload" name="imageUpload" accept="image/*">
+        </fieldset>
+
+        <fieldset>
+            <legend>Квиток</legend>
+
+            <label>Номер</label>
+            <input id="ticket_num" type="number" min="0">
+
+            <label>Тип розміщення</label>
+            <select>
+                <option>--Вибрати--</option>
+                <option>Партер</option>
+                <option>Ложа бенуар</option>
+                <option>Балкон</option>
+            </select>
+
+            <label>Вартість</label>
+            <input id="ticket_price" type="number" min = "0">
+            
+        </fieldset>
+        <button type="submit">Відправити</button>
+    </form>
+
+</body>
+</html>
