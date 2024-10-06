@@ -1,0 +1,39 @@
+body {
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.p_green_bold {
+    /* Колір першого абзацу (За варіантом) */
+    color: rgb(15, 59, 15);
+
+    /* Стиль тексту першого абзацу (За варіантом) */
+    font-weight: bold;
+}
+
+.p_italic {
+    /* Стиль тексту другого абзацу (За варіантом) */
+    font-style: italic;
+}
+
+.img_mongrel_dog {
+    display: block;
+    float: right;
+    width: 200px;
+    margin-left: 30px; 
+    margin-right: 10px; 
+    margin-bottom: 20px; 
+}
+
+.img_great_dane_dog {
+    display: block;       
+    margin-left: auto;    
+    margin-right: auto;   
+}
+
+span {
+    /* Колір тексту останнього речення (За варіантом) */
+    color: green;
+}

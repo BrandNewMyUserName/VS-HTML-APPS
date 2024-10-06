@@ -1,0 +1,26 @@
+h1, h2, h3 {
+    text-align: center;
+}
+
+body{
+    /* Колір фону (За варіантом) */
+    background-color: rgb(51, 100, 51);
+    
+    /* Колір тексту (За варіантом) */
+    color: rgb(176, 0, 0);
+
+    /* Налаштування границь */
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+a {
+    /* Колір посилань (За варіантом) */
+    color: rgb(199, 199, 50);
+}
+
+a:hover {
+    color: rgb(51, 49, 190);
+}
