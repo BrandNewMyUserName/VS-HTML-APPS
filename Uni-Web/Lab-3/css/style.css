@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 1440px;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.menu {
+    width: 292px;
+    height: 2101px;
+    background-color: #e0e0e0;
+}
+
+.menu ul li a img {
+    width: 32px; /* Задаємо ширину для іконок */
+    height: 32px;
+    margin-right: 10px; /* Відступ між іконкою та текстом */
+    vertical-align: middle; /* Вирівнюємо іконку з текстом по центру */
+}
+
+.content {
+    flex-grow: 1;
+    background-color: #fff;
+    padding: 20px;
+    height: 2721px;
+}
+
+
+.description {
+    margin: 50px 0;
+    text-align: left;
+}
+
+.description h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.description p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.map img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd; /* Легка рамка навколо зображення */
+}
+
+
+.additional-section {
+    width: 292px;
+    height: 1666px;
+    background-color: #e0e0e0;
+}
+
+.footer {
+    width: 292px;
+    height: 436px;
+    background-color: #c0c0c0;
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.bottom-line {
+    width: 1440px;
+    height: 86px;
+    background-color: #999999;
+    margin-top: 20px;
+}
+
+/* header {
+    width: 1440px;
+    height: 534px;
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+/* header h1 {
+    font-size: 48px;
+    color: #333;
+    margin: 0;
+} */
+
+
+header {
+    width: 1440px;
+    height: 534px;
+    background-image: url('../images/header_image.png'); /* Заміни 'header-background.jpg' на назву твоєї картинки */
+    background-size: cover; /* Картинка буде масштабована відповідно до блоку */
+    background-position: center; /* Центрування картинки */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff; /* Білий колір тексту для кращої видимості на фоні */
+}
+
+header h1 {
+    font-size: 48px;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Додає тінь для кращого контрасту */
+}
