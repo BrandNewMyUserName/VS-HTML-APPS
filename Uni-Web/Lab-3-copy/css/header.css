@@ -1,0 +1,12 @@
+header {
+    width: var(--page-width);
+    height: var(--header-height);
+    background-image: url('Lab-3/images/header_image.png');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-text-white);
+  }

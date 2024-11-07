@@ -1,0 +1,8 @@
+.footer {
+    width: 1440px;
+    height: 86px; /* Висота основного footer */
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }

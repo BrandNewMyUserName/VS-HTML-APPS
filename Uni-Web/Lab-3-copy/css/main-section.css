@@ -1,0 +1,113 @@
+/* Центральний стовпчик - основний контент */
+.content {
+  width: var(--content-width);
+  display: flex;
+  flex-direction: column;
+  gap: var(--content-gap);
+}
+
+
+.content-section {
+  width: var(--content-section-width);
+  margin-left: var(--margin-side);
+  margin-right: var(--margin-side);
+}
+
+/* Фотоальбом */
+.photo-album {
+  height: var(--photo-album-height);
+  background-color: var(--color-photo-album-section);
+}
+
+.slider-container{
+  position: relative;
+  display: flex;
+  /* align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  width: 80%;
+  margin: 0 auto; */
+
+  width: 100%; /* Загальна ширина контейнера */
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: hidden; /* Ховаємо частини, що виходять за межі */
+}
+
+/* .photo-album h2 {
+  margin-bottom: 10px;
+} */
+
+.gallery {
+  display: flex;
+  transition: transform 0.3s ease;
+  width: 300%;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 10px;
+  flex-shrink: 0
+}
+
+/* .nav-button {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  padding: 5px;
+} */
+
+.nav-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  padding: 5px;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+.indicator-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.indicator {
+  width: 10px;
+  height: 10px;
+  background-color: #ccc;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.indicator.active {
+  background-color: #333;
+}
+
+/* Опис */
+
+.description {
+  height: var(--description-height);
+  background-color: var(--color-description-section);
+}
+
+/* Соціальні програми*/
+
+.social-programs {
+  height: var(--social-programs-height);
+  background-color: var(--color-social-programs-section);
+}

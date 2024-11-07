@@ -1,0 +1,61 @@
+@import url("https://fonts.google.com/share?selection.family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900");
+
+:root {
+    /* Основні кольори */
+    /* --color-footer-background: #08517C;
+    --color-body-background: #F3F6FF;
+    --color-navigation-background: #F3F6FF;
+    --color-header-background: #FFFFFF;
+    --color-photo-album-section: #FFFFFF;
+    --color-description-section: #FFFFFF;
+    --color-social-programs-section: #FFFFFF;
+    --color-additional-section: #FFFFFF;
+    --color-news-section: #FFFFFF;
+    --color-contact-info: #FFFFFF; */
+
+
+    --color-footer-background: #08517C;
+    --color-body-background: #F3F6FF;
+    --color-navigation-background: #958b8b;
+    --color-header-background: #F3F6FF;
+    --color-additional-section: #8682bd;
+    --color-news-section: #7373d4;
+    --color-contact-info: #b3b3ff;
+    --color-photo-album-section: #c3c3ff;
+    --color-description-section: #a3a3ff;
+    --color-social-programs-section: #8383ff;
+
+    
+
+
+
+
+
+
+    --color-light-grey: #e3e3e3;
+    --color-light-purple: #c3c3ff;
+    --color-news-purple: #d3d3ff;
+    --color-contact-purple: #b3b3ff;
+    --color-text-white: #fff;
+
+    /* Розміри */
+    --page-width: 1440px;
+    --page-height: 2721px;
+    --header-height: 534px;
+    --menu-width: 292px;
+    --menu-height: 2101px;
+    --content-width: 856px;
+    --content-section-width: 808px;
+    --content-gap: 21px;
+    --photo-album-height: 633px;
+    --description-height: 708px;
+    --social-programs-height: 718px;
+    --news-height: 1666px;
+    --contact-info-height: 435px;
+    --footer-height: 86px;
+
+    /* Відступи */
+    --margin-side: 24px;
+    --footer-padding: 20px 0;
+}
+

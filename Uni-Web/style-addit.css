@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     width: 1440px;
-    /* height: 2721px; */
+    height: 2721px;
     background-color: #f0f0f0;
 }
 
@@ -27,18 +27,25 @@ body {
 }
 
 .content {
-    width: 856px; /* Фіксована ширина */
-    display: flex;
-    flex-direction: column;
-    gap: 21px; /* Відступ між секціями */
-    background-color: #fff;
-
-    /* flex-grow: 1;
+    flex-grow: 1;
     background-color: #fff;
     padding: 20px;
-    height: 2721px; */
+    height: 2721px;
 }
 
+.content-column {
+    width: 808px;
+}
+
+.gallery{
+    height: 633px;
+}
+
+/* СЕКЦІЯ ОПИСУ ЖИТЛОВОГО КОМПЛЕКСУ */
+
+.description {
+    height: 708px; 
+}
 
 .description {
     margin: 50px 0;
@@ -70,14 +77,12 @@ body {
     border: 1px solid #ddd; /* Легка рамка навколо зображення */
 }
 
+/* СЕКЦІЯ СОЦІАЛЬНІ ПРОГРАМИ */
 
-.additional-section {
-    width: 292px;
-    height: 1666px;
-    background-color: #e0e0e0;
+.social-program {
+    height: 718px; 
 }
 
-/* Стилі для секції "Соціальні програми" */
 .social-programs {
     background-image: url('../images/social_programs_background.png'); /* Фонова картинка секції */
     background-size: cover;
@@ -100,12 +105,15 @@ body {
 }
 
 .program {
-    background-color: rgba(255, 255, 255, 0.9); /* Прозорий білий фон для текстових блоків */
+    /* Прозорий білий фон для текстових блоків */
+    background-color: rgba(255, 255, 255, 0.9); 
     padding: 20px;
     width: 250px;
     margin: 10px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Легка тінь для блоків */
+    /* Легка тінь для блоків */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+
 }
 
 .program h3 {
@@ -120,13 +128,47 @@ body {
 }
 
 
-.footer {
+/* ПРАВИЙ СТОВПЧИК */
+
+.additional-section {
+    display: flex;
+    flex-direction: column;
     width: 292px;
+    background-color: #e0e0e0;
+
+    /* width: 292px;
+    height: 1666px;
+    background-color: #e0e0e0; */
+}
+
+/* СЕКЦІЯ "НОВИНИ" */
+
+.news{
+    height: 1666px;
+}
+
+/* СЕКЦІЯ "КОНТАКТИ" */
+
+.contact-info {
+    height: 435px;
+}
+
+.footer {
+
+    width: 1440px;
+    height: 86px; /* Висота основного footer */
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+
+
+    /* width: 292px;
     height: 436px;
     background-color: #c0c0c0;
     margin-top: 20px;
     text-align: center;
-    padding: 20px;
+    padding: 20px; */
 }
 
 .bottom-line {
