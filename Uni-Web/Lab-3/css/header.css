@@ -1,0 +1,16 @@
+.header {
+  width: var(--page-width);
+  height: var(--header-height);
+  background-image: url('../images/header_image.png');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-header-background);
+}
+
+.header>h1 {
+  font-size: 80px;
+}

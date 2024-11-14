@@ -1,0 +1,33 @@
+.menu {
+  width: var(--menu-width);
+  height: var(--menu-height);
+  background-color: var(--color-navigation-background);
+}
+
+.navigation-block {
+  width: 200px;
+  padding: 20px;
+  /* position: sticky; */
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-item img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.nav-item:last-child {
+  margin-bottom: 0;
+}
+
+.nav-item:hover {
+  color: #007bff;
+}

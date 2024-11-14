@@ -1,0 +1,186 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Positioning Example</title>
+  <style>
+    body{
+      height: 3000px;
+    }
+    .container {
+      height: 200px;
+      background-color: #f0f0f0;
+      padding: 10px;
+      border: 1px solid #ccc;
+      position: relative;
+    }
+    .static {
+      position: static;
+      background-color: lightblue;
+      padding: 10px;
+    }
+    .relative {
+      position: relative;
+      top: 20px;
+      left: 20px;
+      background-color: lightgreen;
+      padding: 10px;
+    }
+    .absolute {
+      position: absolute;
+      top: 20px;
+      left: 50px;
+      background-color: lightcoral;
+      padding: 10px;
+    }
+    .fixed {
+      position: fixed;
+      top: 10px;
+      left: 10px;
+      background-color: lightgoldenrodyellow;
+      padding: 10px;
+    }
+    .sticky {
+      position: sticky;
+      top: 0;
+      background-color: lightpink;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="static">Static Position</div>
+    <div class="relative">Relative Position</div>
+    <div class="absolute">Absolute Position</div>
+  </div>
+  
+  <div class="fixed">Fixed Position (Scroll to see effect)</div>
+  
+  <div style="height: 600px;">Scroll Down...</div>
+  
+  <div class="sticky">Sticky Position</div>
+  <div style="height: 600px;">Scroll Down to see sticky effect...</div>
+  
+</body>
+</html> -->
+
+
+<!-- <!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Макет з Grid</title>
+    <style>
+        /* Стилі для контейнера */
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr; /* Три колонки різної ширини */
+            grid-template-rows: auto 1fr auto;  /* Динамічна висота для вмісту */
+            grid-template-areas: 
+                "header header header"
+                "menu content sidebar"
+                "menu content footer";
+            height: 100vh;
+            gap: 5px;
+            border: 1px solid black;
+        }
+        
+        /* Стилі для кожної секції */
+        .header {
+            grid-area: header;
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .menu {
+            grid-area: menu;
+            background-color: #dcdcdc;
+            padding: 10px;
+        }
+
+        .content {
+            grid-area: content;
+            background-color: #ffffff;
+            padding: 10px;
+        }
+
+        .sidebar {
+            grid-area: sidebar;
+            background-color: #e0e0e0;
+            padding: 10px;
+        }
+
+        .footer {
+            grid-area: footer;
+            background-color: #c1c1c1;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">Заголовок</div>
+        <div class="menu">Меню</div>
+        <div class="content">Вміст</div>
+        <div class="sidebar">Додаткова секція</div>
+        <div class="footer">Нижній колонтитул</div>
+    </div>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Навігація</title>
+    <style>
+        .navigation {
+            width: 200px;
+            background-color: #f5f7fa;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+        .nav-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .nav-item img {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+        }
+        .nav-item:last-child {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="navigation">
+        <div class="nav-item">
+            <img src="C:\Users\User\VS-CODE-APPS\VS-HTML-APPS\Uni-Web\Lab-3-copy\images\icons\about_city_icon.png" alt="Фотоальбом іконка">
+            <span>Фотоальбом</span>
+        </div>
+        <div class="nav-item">
+            <img src="C:\Users\User\VS-CODE-APPS\VS-HTML-APPS\Uni-Web\Lab-3-copy\images\icons\about_city_icon.png" alt="Про містечко іконка">
+            <span>Про містечко</span>
+        </div>
+        <div class="nav-item">
+            <img src="C:\Users\User\VS-CODE-APPS\VS-HTML-APPS\Uni-Web\Lab-3-copy\images\icons\map_icon.png" alt="Розташування на карті іконка">
+            <span>Розташування на карті</span>
+        </div>
+        <div class="nav-item">
+            <img src="C:\Users\User\VS-CODE-APPS\VS-HTML-APPS\Uni-Web\Lab-3-copy\images\icons\social_programs_icon.png" alt="Соціальні програми іконка">
+            <span>Соціальні програми</span>
+        </div>
+    </div>
+</body>
+</html>

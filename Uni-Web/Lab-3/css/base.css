@@ -1,7 +1,51 @@
 @import url("https://fonts.google.com/share?selection.family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900");
 
-:root{
-    --color-blue: #08517C;
-    --color-grey: #F3F6FF;
-    --color-white: #FFFFFF;
+:root {
+    /* Основні кольори */
+    --color-footer-background: #08517C;
+    --color-body-background: #F3F6FF;
+    --color-navigation-background: #F3F6FF;
+    --color-header-background: #FFFFFF;
+    --color-main-section-background: #FFFFFF;
+    --color-photo-album-section: #FFFFFF;
+    --color-description-section: #FFFFFF;
+    --color-social-programs-section: #FFFFFF;
+    --color-additional-section: #FFFFFF;
+    --color-news-section: #FFFFFF;
+    --color-contact-info: #FFFFFF;
+    --color-social-programs-section: #FFFFFF;
+
+
+    --color-light-grey: #e3e3e3;
+    --color-light-purple: #c3c3ff;
+    --color-news-purple: #d3d3ff;
+    --color-contact-purple: #b3b3ff;
+    --color-text-white: #fff;
+
+    /* Розміри */
+    --page-width: 1440px;
+    --page-height: 2721px;
+    --header-height: 534px;
+    --menu-width: 292px;
+    --menu-height: 2101px;
+    --content-width: 856px;
+    --content-height: 2101px;
+    --content-gap: 21px;
+    --photo-album-height: 633px;
+    --description-height: 708px;
+    --social-programs-height: 718px;
+    /* --additional-section-height: 1666px; */
+    --additional-section-height: 2102px;
+    --additional-section-width: 292px;
+    --news-height: 1666px;
+    --contact-info-height: 417px; 
+    /* 417px + 19px (padding) = 436px (Загальний розмір секції контактів)  */
+    --footer-height: 86px;
+    --footer-width: 1440px;
+
+
+    /* Відступи */
+    --section-side-padding: 24px;
+    --footer-padding: 20px 0;
 }
+

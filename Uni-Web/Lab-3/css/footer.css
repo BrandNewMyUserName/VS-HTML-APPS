@@ -1,0 +1,8 @@
+.footer {
+  width: var(--page-width);
+  height: var(--footer-height);
+  background-color: var(--color-footer-background);
+  color: var(--color-text-white);
+  text-align: center;
+  padding: var(--footer-padding); 
+}
